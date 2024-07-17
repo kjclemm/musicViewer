@@ -1,10 +1,12 @@
 package com.example.musicviewer
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -35,6 +37,16 @@ class UploadFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_upload, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val floatingActionButton: FloatingActionButton = view.findViewById(R.id.float_btn)
+
+        floatingActionButton.setOnClickListener{
+            val intent = Intent(activity, UploadPDF::class.java)
+            startActivity(intent)
+        }
     }
 
     companion object {

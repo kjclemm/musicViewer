@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "684502058304",
+    "project_id": "musicviewer-31d1b",
+    "storage_bucket": "musicviewer-31d1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684502058304:android:9ddf7a28d8afa3dc9e26a5",
+        "android_client_info": {
+          "package_name": "com.example.musicviewer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDodrLYehSXdBkFpPLagPt4SKyC4_jUgzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
