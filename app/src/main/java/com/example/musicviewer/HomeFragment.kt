@@ -36,16 +36,16 @@ class HomeFragment : Fragment() {
         recyclerView.adapter = pdfAdapter
 
 
-        val testPDF = pdfClass("Test PDF","https://www.example.com/test.pdf")
-        pdfList.add(testPDF)
-        pdfAdapter.notifyDataSetChanged()
+//        val testPDF = pdfClass("Test PDF","https://www.example.com/test.pdf")
+//        pdfList.add(testPDF)
+//        pdfAdapter.notifyDataSetChanged()
 
 
         // Initialize database reference with the correct path
-        databaseReference = FirebaseDatabase.getInstance().getReference("uploads")
+        databaseReference = FirebaseDatabase.getInstance().getReference()
         databaseReference.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
-                //pdfList.clear()
+                pdfList.clear()
                 for (dataSnapshot in snapshot.children) {
                     val pdfModel = dataSnapshot.getValue(pdfClass::class.java)
 
