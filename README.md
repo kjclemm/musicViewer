@@ -6,3 +6,14 @@ The app will be integrated with a mentonome, tunner and other features for musci
 Additionaly the pdfs when viewed will support page flipping that is the user can determin when moving to the next page
 how much of the next page and previous page is vissible in order to time page turns out properly.
 
+Implemented Features:
+Recycler View showing PDFs
+Uploading PDFs and retrival of PDFs
+Firebase Database integrated
+
+TODO:
+Implement Page turns, mentonome, and tunner
+Implement deleation of different PDFs
+Implement Sorting, Searching, and filteirng
+Implement Authentication
+
