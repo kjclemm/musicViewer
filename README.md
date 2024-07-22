@@ -1,19 +1,11 @@
 # musicViewer
 
-Unlike for iOS there is no PDF app that supports music related PDFs on Android. This app aims
-to be an app that can hold PDFs uploaded to a database and then retreive those PDFs that are music related.
-The app will be integrated with a mentonome, tunner and other features for muscians.
-Additionaly the pdfs when viewed will support page flipping that is the user can determin when moving to the next page
-how much of the next page and previous page is vissible in order to time page turns out properly.
+Unlike iOS, Android currently lacks a PDF app that supports music-related PDFs. This app aims to fill that gap by providing a platform to store PDFs in a database and retrieve music-related ones. The app will be equipped with a metronome, tuner, and other features for musicians. Additionally, when viewing the PDFs, the app will support page flipping. This means users can control the visibility of the next and previous pages when transitioning, allowing them to time their page turns appropriately.
 
 Implemented Features:
-Recycler View showing PDFs
-Uploading PDFs and retrival of PDFs
-Firebase Database integrated
+Recycler View showing PDFs, Uploading PDFs and retrival of PDFs, Firebase Database integrated
 
 TODO:
-Implement Page turns, mentonome, and tunner
-Implement deleation of different PDFs
-Implement Sorting, Searching, and filteirng
-Implement Authentication
+Add Images of App to Readme
+Implement: Page turns, mentonome, and tunner, deleation of different PDFs, Sorting, Searching, and filteirng, and Authentication
 
